@@ -2,7 +2,7 @@ import about07 from "./../../assets/images/about/07.jpg";
 
 export default function AboutSection() {
   return (
-    <section className="about-section pt-0">
+    <section className="about-section pt-5">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 col-lg-6 position-relative">
