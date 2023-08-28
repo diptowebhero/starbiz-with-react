@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-6 mt-5 mt-lg-0">
-              <a className="footer-logo d-inline-block logo mb-5" href="index.html">
+              <a className="footer-logo d-inline-block logo mb-5">
                 <img className="img-fluid" src={Logo} alt="Logo Img"/>
               </a>
               <div className="footer-cntct">
@@ -34,22 +34,22 @@ export default function Footer() {
               <h5 className="mb-4">Our Services</h5>
               <ul className="list-unstyled mb-0 footer-menu">
                 <li className="mb-3">
-                  <a href="ui-ux-experience.html">UI/UX Experience</a>
+                  <a href="#">UI/UX Experience</a>
                 </li>
                 <li className="mb-3">
-                  <a href="digital-marketing.html">Digital Marketing</a>
+                  <a href="#">Digital Marketing</a>
                 </li>
                 <li className="mb-3">
-                  <a href="mobile-development.html">Mobile Development</a>
+                  <a href="#">Mobile Development</a>
                 </li>
                 <li className="mb-3">
-                  <a href="social-media-marketing.html">Social Media Marketing</a>
+                  <a href="#">Social Media Marketing</a>
                 </li>
                 <li className="mb-3">
-                  <a href="website-development.html">Website Development</a>
+                  <a href="#">Website Development</a>
                 </li>
                 <li>
-                  <a href="business-strategy.html">Business Strategy</a>
+                  <a href="#">Business Strategy</a>
                 </li>
               </ul>
             </div>
@@ -57,10 +57,10 @@ export default function Footer() {
               <h5 className="mb-4">Useful Link</h5>
               <ul className="list-unstyled mb-0 footer-menu">
                 <li className="mb-3">
-                  <a href="about-us.html">About Us</a>
+                  <a href="#">About Us</a>
                 </li>
                 <li className="mb-3">
-                  <a href="contact.html">Contact</a>
+                  <a href="#">Contact</a>
                 </li>
                 <li className="mb-3">
                   Price Table
@@ -69,7 +69,7 @@ export default function Footer() {
                   Our Blogs
                 </li>
                 <li>
-                  <a href="contact.html">Contact Us</a>
+                  <a href="#">Contact Us</a>
                 </li>
               </ul>
             </div>
