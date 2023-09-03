@@ -9,10 +9,10 @@ export default function Navbar() {
           <div className='row'>
             <div className='col'>
               <nav className='navbar navbar-expand-lg'>
-                <a className='navbar-brand logo' href='index.html'>
+                <Link className='navbar-brand logo' to='/'>
                   {/* <img className="img-fluid" src={Logo} alt="Logo" /> */}
                   <h2>Agency</h2>
-                </a>
+                </Link>
                 <button
                   className='navbar-toggler ht-toggler'
                   type='button'
