@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import about06 from "./../../assets/images/about/06.jpg";
 import aboutImg from "./../../assets/images/about/07.jpg";
 
@@ -48,9 +49,9 @@ export default function Banner() {
               with the necessary regelialia. It is a paradisematic country, in
               which roasted parts of sentences
             </p>
-            <a href="contact.html" className="primary-btn">
+            <Link to="contact" className="primary-btn">
               Let&lsquo;s Talk With Us
-            </a>
+            </Link>
             <div className="text-end">
               <div className="round-text">
                 <svg

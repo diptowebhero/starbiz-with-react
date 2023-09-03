@@ -194,6 +194,12 @@ Background & Border Color
   background-position: top center;
   background-repeat: no-repeat;
 }
+.contactPageBg {
+  background: url("../images/bg/03.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
 
 .banner-slider .slider-img {
   background-size: cover;

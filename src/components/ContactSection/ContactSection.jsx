@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function ContactSection() {
   return (
@@ -34,9 +35,9 @@ export default function ContactSection() {
                       </text>
                     </g>
                   </svg>
-                  <a className="contact-btn text-btn-icon" href="contact.html">
+                  <Link to="contact" className="contact-btn text-btn-icon">
                     <i aria-hidden="true" className="flaticon-forward"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
