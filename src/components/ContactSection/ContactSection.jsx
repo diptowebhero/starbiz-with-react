@@ -42,7 +42,7 @@ export default function ContactSection() {
                   <Link
                     to='contact'
                     className='contact-btn text-btn-icon nav-link'>
-                    <i aria-hidden='true' className='flaticon-forward'></i>
+                    {/* <i aria-hidden='true' className='flaticon-forward'></i> */}
                   </Link>
                 </div>
               </div>
