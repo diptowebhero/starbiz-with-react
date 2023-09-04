@@ -18,9 +18,9 @@ export default function AboutSection() {
               <h6>About Us</h6>
               <h2>We&rsquo;re Creative Agency Since 2022</h2>
               <p>
-                Starbiz discovering the source behind the ubiquitous filler
+                PixelFusion discovering the source behind the ubiquitous filler
                 text. In seeing a sample of lorem ipsum, his interest was piqued
-                by consectetur Starbiz discovering the source behind the
+                by consectetur PixelFusion discovering the source behind the
                 ubiquitous filler text
               </p>
             </div>

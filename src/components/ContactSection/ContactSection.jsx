@@ -35,14 +35,11 @@ export default function ContactSection() {
                       </text>
                     </g>
                   </svg>
-                  {/* <a className='contact-btn text-btn-icon' href='contact.html'>
-                    <i aria-hidden='true' className='flaticon-forward'></i>
-                  </a> */}
 
                   <Link
                     to='contact'
                     className='contact-btn text-btn-icon nav-link'>
-                    {/* <i aria-hidden='true' className='flaticon-forward'></i> */}
+                    <i aria-hidden='true' className='flaticon-forward'></i>
                   </Link>
                 </div>
               </div>

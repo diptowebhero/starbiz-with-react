@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import Logo from "./../../assets/images/logo.png";
 
 export default function Navbar() {
   return (
@@ -10,8 +9,7 @@ export default function Navbar() {
             <div className='col'>
               <nav className='navbar navbar-expand-lg'>
                 <Link className='navbar-brand logo' to='/'>
-                  {/* <img className="img-fluid" src={Logo} alt="Logo" /> */}
-                  <h2>Agency</h2>
+                  <h2>PixelFusion</h2>
                 </Link>
                 <button
                   className='navbar-toggler ht-toggler'
@@ -43,20 +41,10 @@ export default function Navbar() {
                       </Link>
                     </li>
                     <li className='nav-item'>
-                      <Link to='about-us' className='nav-link'>
-                        About Us
+                      <Link to='about' className='nav-link'>
+                        About
                       </Link>
                     </li>
-                    {/* <li className='nav-item'>
-                      <Link to='' className='nav-link'>
-                        Blogs
-                      </Link>
-                    </li>
-                    <li className='nav-item'>
-                      <Link to='' className='nav-link'>
-                        Team
-                      </Link>
-                    </li> */}
 
                     <li className='nav-item'>
                       <Link to='contact' className='nav-link'>

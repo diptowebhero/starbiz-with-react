@@ -8,7 +8,7 @@ export default function Footer() {
             <div className='col-lg-4 col-md-6 mt-5 mt-lg-0'>
               <a className='footer-logo d-inline-block logo mb-5'>
                 {/* <img className="img-fluid" src={Logo} alt="Logo Img"/> */}
-                <h2>Agency</h2>
+                <h2>PixelFusion</h2>
               </a>
               <div className='footer-cntct'>
                 <ul className='media-icon list-unstyled'>
@@ -104,7 +104,7 @@ export default function Footer() {
           <div className='row align-items-center'>
             <div className='col-lg-8 col-md-12'>
               {" "}
-              Copyright 2022 Agency by{" "}
+              Copyright 2022 PixelFusion by{" "}
               <u>
                 <a className='text-theme' href='#'>
                   WeDevLoopers

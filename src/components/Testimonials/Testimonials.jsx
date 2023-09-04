@@ -42,69 +42,68 @@ const options = {
 export default function Testimonials() {
   return (
     <>
-      <section className="bg-dark-2">
-        <div className="container">
-          <div className="row">
-            <div className="col">
+      <section className='bg-dark-2'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col'>
               <OwlCarousel
                 OwlCarousel
-                className="owl-carousel owl-theme no-pb"
+                className='owl-carousel owl-theme no-pb'
                 loop
                 margin={10}
                 nav
-                {...options}
-              >
+                {...options}>
                 {" "}
-                <div className="item">
-                  <div className="testimonial style-1">
-                    <div className="testimonial-img">
+                <div className='item'>
+                  <div className='testimonial style-1'>
+                    <div className='testimonial-img'>
                       <img
-                        className="img-fluid"
+                        className='img-fluid'
                         src={testimonialImg}
-                        alt="Image"
+                        alt='Image'
                       />
-                      <div className="testimonial-caption">
+                      <div className='testimonial-caption'>
                         <h5>Steven White</h5>
                         <span>CEO</span>
                       </div>
                     </div>
-                    <div className="testimonial-content">
-                      <div className="testimonial-quote">
-                        <i className="flaticon flaticon-quotes"></i>
+                    <div className='testimonial-content'>
+                      <div className='testimonial-quote'>
+                        <i className='flaticon flaticon-quotes'></i>
                       </div>
                       <p>
                         Look no further, this is the company to go with. What a
                         pleasure it is to deal with friendly, professional
                         individuals who take pride in their work. I highly
-                        recommend Starbiz Look no further, this is the company
-                        to go with.
+                        recommend PixelFusion Look no further, this is the
+                        company to go with.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="item">
-                  <div className="testimonial style-1">
-                    <div className="testimonial-img">
+                <div className='item'>
+                  <div className='testimonial style-1'>
+                    <div className='testimonial-img'>
                       <img
-                        className="img-fluid"
+                        className='img-fluid'
                         src={testimonialImg2}
-                        alt="Image"
+                        alt='Image'
                       />
-                      <div className="testimonial-caption">
+                      <div className='testimonial-caption'>
                         <h5>Maria Bella</h5>
                         <span>Manager</span>
                       </div>
                     </div>
-                    <div className="testimonial-content">
-                      <div className="testimonial-quote">
-                        <i className="flaticon flaticon-quotes"></i>
+                    <div className='testimonial-content'>
+                      <div className='testimonial-quote'>
+                        <i className='flaticon flaticon-quotes'></i>
                       </div>
                       <p>
                         Look no further, this is the company to go with. What a
                         pleasure it is to deal with friendly, professional
                         individuals who take pride in their work. I highly
-                        recommend Starbiz Look no further, this is the company
-                        to go with.
+                        recommend PixelFusion Look no further, this is the
+                        company to go with.
                       </p>
                     </div>
                   </div>
