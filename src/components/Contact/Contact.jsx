@@ -1,35 +1,8 @@
-// import { Link } from "react-router-dom";
 import ContactMap from "./ContactMap";
 
 const Contact = () => {
   return (
     <>
-      {/* Bread Crumb start*/}
-      {/* <section className='page-title contactPageBg'>
-        <div className='container'>
-          <div className='row justify-content-center text-center'>
-            <div className='col-lg-8'>
-              <div className='theme-breadcrumb-box'>
-                <h1>Contact Us</h1>
-                <nav aria-label='breadcrumb' className='page-breadcrumb'>
-                  <ol className='breadcrumb'>
-                    <li className='breadcrumb-item'>
-                      <Link to='/'>
-                        <i className='las la-home me-1'></i>Home
-                      </Link>
-                    </li>
-                    <li className='breadcrumb-item active' aria-current='page'>
-                      Contact Us
-                    </li>
-                  </ol>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* Bread Crumb end*/}
-
       <section>
         <div className='container'>
           <div className='row'>
