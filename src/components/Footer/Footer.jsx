@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 // import Logo from "./../../assets/images/logo.png";
 export default function Footer() {
   return (
@@ -6,10 +8,10 @@ export default function Footer() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-4 col-md-6 mt-5 mt-lg-0'>
-              <a className='footer-logo d-inline-block logo mb-5'>
+              <Link to='/' className='footer-logo d-inline-block logo mb-5'>
                 {/* <img className="img-fluid" src={Logo} alt="Logo Img"/> */}
                 <h2>PixelFusion</h2>
-              </a>
+              </Link>
               <div className='footer-cntct'>
                 <ul className='media-icon list-unstyled'>
                   <li>
@@ -37,22 +39,22 @@ export default function Footer() {
               <h5 className='mb-4'>Our Services</h5>
               <ul className='list-unstyled mb-0 footer-menu'>
                 <li className='mb-3'>
-                  <a href='#'>UI/UX Experience</a>
+                  <Link to=''>UI/UX Experience</Link>
                 </li>
                 <li className='mb-3'>
-                  <a href='#'>Digital Marketing</a>
+                  <Link to=''>ERP System</Link>
                 </li>
                 <li className='mb-3'>
-                  <a href='#'>Mobile Development</a>
+                  <Link to=''>Mobile Development</Link>
                 </li>
                 <li className='mb-3'>
-                  <a href='#'>Social Media Marketing</a>
+                  <Link to=''>CMS System</Link>
                 </li>
                 <li className='mb-3'>
-                  <a href='#'>Website Development</a>
+                  <Link to=''>Website Development</Link>
                 </li>
                 <li>
-                  <a href='#'>Business Strategy</a>
+                  <Link to=''>Business Strategy</Link>
                 </li>
               </ul>
             </div>
@@ -60,15 +62,13 @@ export default function Footer() {
               <h5 className='mb-4'>Useful Link</h5>
               <ul className='list-unstyled mb-0 footer-menu'>
                 <li className='mb-3'>
-                  <a href='#'>About Us</a>
+                  <Link to='about'>About Us</Link>
                 </li>
                 <li className='mb-3'>
-                  <a href='#'>Contact</a>
+                  <Link to='contact'>Contact</Link>
                 </li>
-                <li className='mb-3'>Price Table</li>
-                <li className='mb-3'>Our Blogs</li>
-                <li>
-                  <a href='#'>Contact Us</a>
+                <li className='mb-3'>
+                  <Link to='services'>Services</Link>
                 </li>
               </ul>
             </div>
