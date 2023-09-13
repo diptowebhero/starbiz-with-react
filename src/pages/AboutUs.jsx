@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import About from "../components/About/About";
 import PageBanner from "../components/Banner/PageBanner";
 import Team from "../components/Team/Team";
+import PageTitle from "../components/PageTitle/PageTitle";
 
 export default function AboutUs() {
   const [currentPageName, setCurrentPageName] = useState("");
@@ -30,7 +31,7 @@ export default function AboutUs() {
 
   return (
     <>
-      <PageBanner currentPageName={currentPageName} />
+       <PageTitle title='About' pageLinkName='about'/>
       <div className='page-content'>
         <About />
         <Team />
