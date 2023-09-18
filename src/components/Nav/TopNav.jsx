@@ -23,7 +23,7 @@ export default function TopNav() {
               </div>
               <div className='d-flex align-items-center'>
                 <div className='search-icon me-3'>
-                  <a id='search' href='javascript:void(0)'>
+                  <a id='search' href='#'>
                     <i className='las la-search'></i>
                   </a>
                 </div>

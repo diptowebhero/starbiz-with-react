@@ -5,6 +5,7 @@ import ContactPage from "../pages/ContactPage";
 import ErrorPage from "../pages/ErrorPage";
 import Home from "../pages/Home";
 import Services from "../pages/Services";
+import SingleService from "../components/SingleService/SingleService";
 
 
 export const router = createBrowserRouter([
@@ -26,15 +27,15 @@ export const router = createBrowserRouter([
         element: <ContactPage />,
       },
       {
-        path: "/service",
+        path: "/services",
         element: <Services />
       },
       
-      // {
-      //   path: "/service/:id",
-      //   element: <SingleService />,
+      {
+        path: "/service/:id",
+        element: <SingleService />,
         
-      // }
+      }
     ],
   },
 ]);
