@@ -65,7 +65,7 @@ export default function FeatureServices() {
                     </div>
                     <div className='service-desc'>
                       <h4>
-                        <Link to=''>Mobile Application</Link>
+                        <Link to='/service/2'>Mobile Application</Link>
                       </h4>
                       <ul className='list-unstyled'>
                         <li>
@@ -84,7 +84,7 @@ export default function FeatureServices() {
                           <i className='flaticon-forward'></i>Creative Direction
                         </li>
                       </ul>
-                      <Link className='rounded-button' to=''>
+                      <Link className='rounded-button' to='/service/2'>
                         <i className='flaticon-forward'></i>
                       </Link>
                     </div>
@@ -97,7 +97,7 @@ export default function FeatureServices() {
                     </div>
                     <div className='service-desc'>
                       <h4>
-                        <Link to=''>Business Strategy</Link>
+                        <Link to='/service/4'>Business Strategy</Link>
                       </h4>
                       <ul className='list-unstyled'>
                         <li>
@@ -116,7 +116,7 @@ export default function FeatureServices() {
                           <i className='flaticon-forward'></i>Creative Direction
                         </li>
                       </ul>
-                      <Link className='rounded-button' to=''>
+                      <Link className='rounded-button' to='/service/4'>
                         <i className='flaticon-forward'></i>
                       </Link>
                     </div>
@@ -129,7 +129,7 @@ export default function FeatureServices() {
                     </div>
                     <div className='service-desc'>
                       <h4>
-                        <Link to=''>ERP System</Link>
+                        <Link to='/service/5'>ERP System</Link>
                       </h4>
                       <ul className='list-unstyled'>
                         <li>
@@ -148,7 +148,7 @@ export default function FeatureServices() {
                           <i className='flaticon-forward'></i>Creative Direction
                         </li>
                       </ul>
-                      <Link className='rounded-button' to=''>
+                      <Link className='rounded-button' to='/service/5'>
                         <i className='flaticon-forward'></i>
                       </Link>
                     </div>
@@ -161,7 +161,7 @@ export default function FeatureServices() {
                     </div>
                     <div className='service-desc'>
                       <h4>
-                        <Link to=''>UI/UX Experience</Link>
+                        <Link to='/service/1'>UI/UX Experience</Link>
                       </h4>
                       <ul className='list-unstyled'>
                         <li>
@@ -180,7 +180,7 @@ export default function FeatureServices() {
                           <i className='flaticon-forward'></i>Creative Direction
                         </li>
                       </ul>
-                      <Link className='rounded-button' to=''>
+                      <Link className='rounded-button' to='/service/1'>
                         <i className='flaticon-forward'></i>
                       </Link>
                     </div>
@@ -193,7 +193,7 @@ export default function FeatureServices() {
                     </div>
                     <div className='service-desc'>
                       <h4>
-                        <Link to=''>Web Application</Link>
+                        <Link to='/service/3'>Web Application</Link>
                       </h4>
                       <ul className='list-unstyled'>
                         <li>
@@ -212,7 +212,7 @@ export default function FeatureServices() {
                           <i className='flaticon-forward'></i>Creative Direction
                         </li>
                       </ul>
-                      <Link className='rounded-button' to=''>
+                      <Link className='rounded-button' to='/service/3'>
                         <i className='flaticon-forward'></i>
                       </Link>
                     </div>

@@ -56,10 +56,7 @@ export default function AboutSection() {
                 </ul>
               </div>
             </div>
-            {/* <a href='#' className='rounded-button'>
-              <i className='flaticon-forward'></i>
-            </a> */}
-            <Link to='about-us' className='rounded-button'>
+            <Link to='about' className='rounded-button'>
               <i className='flaticon-forward'></i>
             </Link>
           </div>

@@ -1,35 +1,28 @@
+
 import { useEffect, useState } from "react";
-import PageBanner from "../components/Banner/PageBanner";
+import SingleService from "../components/SingleService/SingleService";
+
 
 export default function Services() {
-  const [currentPageName, setCurrentPageName] = useState("");
 
-  useEffect(() => {
-    // Update the currentPageName when the component mounts or when the pathname changes.
-    const updatePageName = () => {
-      const pathname = window.location.pathname;
+  const [servicePage, setServicePage] = useState();
 
-      // Split the pathname by '/' and get the last segment
-      const segments = pathname.split("/");
-      setCurrentPageName(segments[segments.length - 1]);
-    };
+  useEffect(()=> {
+    fetch(`/service.json`)
+    .then(res => res.json())
+    .then(data => setServicePage(data))
+  }, [])
 
-    // Initial setup
-    updatePageName();
-
-    // Listen for changes in the pathname
-    window.addEventListener("popstate", updatePageName);
-
-    // Clean up the event listener when the component unmounts
-    return () => {
-      window.removeEventListener("popstate", updatePageName);
-    };
-  }, []);
 
   return (
     <>
-      <PageBanner currentPageName={currentPageName} />
-      <h1>Services Coming Soon</h1>
+
+   {
+    servicePage.map(service => {
+      <SingleService key={service.id} service={service} />
+    })
+   }
+
     </>
   );
 }

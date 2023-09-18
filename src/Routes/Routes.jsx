@@ -6,6 +6,7 @@ import ErrorPage from "../pages/ErrorPage";
 import Home from "../pages/Home";
 import Services from "../pages/Services";
 
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -21,13 +22,19 @@ export const router = createBrowserRouter([
         element: <AboutUs />,
       },
       {
-        path: "/services",
-        element: <Services />,
-      },
-      {
         path: "/contact",
         element: <ContactPage />,
       },
+      {
+        path: "/service",
+        element: <Services />
+      },
+      
+      // {
+      //   path: "/service/:id",
+      //   element: <SingleService />,
+        
+      // }
     ],
   },
 ]);

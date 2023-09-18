@@ -101,12 +101,12 @@ export default function PrevWork() {
                     </div>
                     <div className='portfolio-desc'>
                       <div className='portfolio-cat'>
-                        <Link to='' rel='tag'>
+                        <Link to='/service/3' rel='tag'>
                           Development
                         </Link>
                       </div>
                       <h4>
-                        <Link to=''>Web Development</Link>
+                        <Link to='/service/3'>Web Development</Link>
                       </h4>
                     </div>
                   </div>
@@ -118,12 +118,12 @@ export default function PrevWork() {
                     </div>
                     <div className='portfolio-desc'>
                       <div className='portfolio-cat'>
-                        <Link to='' rel='tag'>
+                        <Link to='/service/2' rel='tag'>
                           Development
                         </Link>
                       </div>
                       <h4>
-                        <Link to=''>Mobile App</Link>
+                        <Link to='/service/2'>Mobile App</Link>
                       </h4>
                     </div>
                   </div>
@@ -135,12 +135,12 @@ export default function PrevWork() {
                     </div>
                     <div className='portfolio-desc'>
                       <div className='portfolio-cat'>
-                        <Link to='' rel='tag'>
+                        <Link to='/service/1' rel='tag'>
                           Design
                         </Link>
                       </div>
                       <h4>
-                        <Link to=''>UI/UX Experience</Link>
+                        <Link to='/service/1'>UI/UX Experience</Link>
                       </h4>
                     </div>
                   </div>
@@ -152,12 +152,12 @@ export default function PrevWork() {
                     </div>
                     <div className='portfolio-desc'>
                       <div className='portfolio-cat'>
-                        <Link to='' rel='tag'>
+                        <Link to='/service/5' rel='tag'>
                           Management
                         </Link>
                       </div>
                       <h4>
-                        <Link to=''>ERP System</Link>
+                        <Link to='/service/5'>ERP System</Link>
                       </h4>
                     </div>
                   </div>
@@ -169,12 +169,12 @@ export default function PrevWork() {
                     </div>
                     <div className='portfolio-desc'>
                       <div className='portfolio-cat'>
-                        <Link to='' rel='tag'>
+                        <Link to='/service/6' rel='tag'>
                           Management
                         </Link>
                       </div>
                       <h4>
-                        <Link to=''>CMS System</Link>
+                        <Link to='/service/6'>CMS System</Link>
                       </h4>
                     </div>
                   </div>
