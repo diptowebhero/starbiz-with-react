@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 
-import { useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
 import services from "../../localJson/service";
 import PageTitle from "../PageTitle/PageTitle";
-import { useEffect, useState } from "react";
 
 export default function SingleService() {
-  // console.log(services);
+
   let { id } = useParams();
   const [singleService, setSingleService] = useState({});
 
@@ -15,6 +15,7 @@ export default function SingleService() {
     setSingleService(foundService)
   }, [id]);
   const {name, image, des} = singleService || {};
+  
   return (
     <>
       <PageTitle title={name} pageLinkName={name} />
@@ -25,7 +26,7 @@ export default function SingleService() {
               <div className="col-12 col-lg-9 mb-6 mb-lg-0 order-lg-1 ps-lg-5">
                 <div className="service-item">
                   <div className="service-image mb-5">
-                    <img src="https://i.ibb.co/sjJF6Xh/03.jpg" className="img-fluid" alt={name} />
+                    <img src={image} className="img-fluid" alt={name} />
                   </div>
                   <p className="mb-5">{des}</p>
                   <h3>How we works?</h3>
@@ -283,24 +284,24 @@ export default function SingleService() {
                 <div className="service-widget widget widget_nav_menu">
                   <ul id="menu-services-menu" className="menu mb-0">
                     <li className="menu-item current-menu-item">
-                      <a href="ui-ux-experience.html">UI/UX Experience</a>
+                      <Link to={`/service/1`} >UI/UX Experience</Link>
                     </li>
                     <li className="menu-item">
-                      <a href="digital-marketing.html">Digital Marketing</a>
+                      <Link to={`/service/5`}>ERP System</Link>
                     </li>
                     <li className="menu-item">
-                      <a href="mobile-development.html">Mobile Development</a>
+                      <Link to={`/service/2`}>Mobile Development</Link>
                     </li>
                     <li className="menu-item">
-                      <a href="social-media-marketing.html">
-                        Social Media Marketing
-                      </a>
+                      <Link to={`/service/6`}>
+                        CMS System
+                      </Link>
                     </li>
                     <li className="menu-item">
-                      <a href="website-development.html">Website Development</a>
+                      <Link to={`/service/3`}>Website Development</Link>
                     </li>
                     <li className="menu-item">
-                      <a href="business-strategy.html">Business Strategy</a>
+                      <Link to={`/service/4`}>Business Strategy</Link>
                     </li>
                   </ul>
                 </div>

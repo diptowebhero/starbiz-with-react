@@ -1,43 +1,70 @@
-
 const services = [
-    {
-    "id": 1,
-    "name": "UI/UX Experience",
-    "image": "https://i.ibb.co/ZMyBZV0/01.jpg",
-    "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  {
+    id: 1,
+    name: "UI/UX Experience",
+    image: "https://i.ibb.co/ZMyBZV0/01.jpg",
+    des: "Our team of seasoned UI/UX designers combines creativity with functionality to ensure your product not only looks great but also performs flawlessly. We delve deep into user behavior and preferences to create designs that resonate with your target audience, making interactions effortless and enjoyable.",
+    featureOne: "Intuitive Navigation",
+    featureTwo: "Visual Appeal",
+    featureThree: "Seamless Interactions",
+    featureFour: "Responsive Design",
+    featureFive: "User-Centric",
   },
   {
-    "id": 2,
-    "name": "Mobile Development",
-    "image": "https://i.ibb.co/sjJF6Xh/03.jpg",
-    "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    id: 2,
+    name: "Mobile Development",
+    image: "https://i.ibb.co/sjJF6Xh/03.jpg",
+    des: "Our team of experienced mobile developers is skilled in creating both iOS and Android applications that seamlessly blend innovation and functionality. We understand that every app has its unique requirements, and we tailor our development process to suit your vision.",
+    featureOne: "App Performance",
+    featureTwo: "Offline Access",
+    featureThree: "User-Friendly UI",
+    featureFour: "Security Measures",
+    featureFive: "Cross-Platform Compatibility",
   },
   {
-    "id": 3,
-    "name": "Website Development",
-    "image": "https://i.ibb.co/sjJF6Xh/03.jpg",
-    "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    id: 3,
+    name: "Website Development",
+    image: "https://i.ibb.co/HrM71zC/05.jpg",
+    des: "Our team of skilled website developers combines creativity with technical prowess to build websites that make a lasting impression. We understand that each business is unique, and we tailor our development approach to meet your specific goals, whether it's creating an e-commerce platform, a portfolio website, or a corporate web presence.",
+    featureOne: "User Experience",
+    featureTwo: "SEO Optimization",
+    featureThree: "Content Management",
+    featureFour: "Scalability Options",
+    featureFive: "Responsive Design",
   },
   {
-    "id": 4,
-    "name": "Business Strategy",
-    "image": "https://i.ibb.co/Tt4W9yf/06.jpg",
-    "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    id: 4,
+    name: "Business Strategy",
+    image: "https://i.ibb.co/Tt4W9yf/06.jpg",
+    des: "Our seasoned team of strategists understands that one size does not fit all. We work closely with you to develop tailored strategies that align with your unique goals, whether it's expanding market share, optimizing operations, or fostering innovation.",
+    featureOne: "Market Analysis",
+    featureTwo: "Competitive Edge",
+    featureThree: "Goal Alignment",
+    featureFour: "Tactical Planning",
+    featureFive: "Risk Management",
   },
   {
-    "id": 5,
-    "name": "ERP System",
-    "image": "https://i.ibb.co/LvkSXmr/04.jpg",
-    "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    id: 5,
+    name: "ERP System",
+    image: "https://i.ibb.co/LvkSXmr/04.jpg",
+    des: "Our ERP system is a comprehensive tool that integrates and optimizes all your core business functions, from finance and HR to inventory management and customer relations. With real-time data accessibility and analytics at your fingertips",
+    featureOne: "Integrated Modules",
+    featureTwo: "Real-time Data",
+    featureThree: "Customizable Dashboards",
+    featureFour: "Workflow Automation",
+    featureFive: "Scalability Options",
   },
   {
-    "id": 6,
-    "name": "CMS System",
-    "image": "https://i.ibb.co/1Gpmrjy/02.jpg",
-    "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-  }
-]
-  
+    id: 6,
+    name: "CMS System",
+    image: "https://i.ibb.co/1Gpmrjy/02.jpg",
+    des: "Our CMS system is a user-friendly, intuitive platform that enables you to create, edit, and organize content effortlessly. Whether you're running a blog, an e-commerce site, or a corporate website, our CMS simplifies the process of adding new content, images, and multimedia elements.",
+    featureOne: "Multi-User Support",
+    featureTwo: "Version Control",
+    featureThree: "Customizable Templates",
+    featureFour: "Content Management",
+    featureFive: "User-Friendly",
+  },
+];
 
-
-export default services
+export default services;
