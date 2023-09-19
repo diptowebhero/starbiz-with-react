@@ -1,4 +1,5 @@
 
+import PageHeader from "../components/PageHeader/PageHeader";
 import PageTitle from "../components/PageTitle/PageTitle";
 import PricePlan from "../components/PricePlan/PricePlan";
 import ServiceBox from "../components/ServiceBox/ServiceBox";
@@ -10,7 +11,8 @@ export default function Services() {
  
 
   return (
-    <div>
+    <>
+      <PageHeader title="Services" />
       <PageTitle title="services" pageLinkName="services" />
       <div className="container pt-5">
         <div className="row">
@@ -20,6 +22,6 @@ export default function Services() {
         </div>
         <PricePlan />
       </div>
-    </div>
+    </>
   );
 }
