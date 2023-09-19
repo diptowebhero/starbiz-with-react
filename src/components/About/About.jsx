@@ -1,15 +1,28 @@
-import { Link } from "react-router-dom";
+/* eslint-disable no-unused-vars */
+import { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
 import aboutUsImg2 from "../../assets/images/about/04.jpg";
 import services03 from "../../assets/images/services/003.jpg";
 import services01 from "../../assets/images/services/01.jpg";
 import services02 from "../../assets/images/services/03.jpg";
 import services05 from "../../assets/images/services/04.jpg";
 import services04 from "../../assets/images/services/05.jpg";
+import services from "../../localJson/service";
 
 export default function About() {
+
+  let { id } = useParams();
+  const [singleService, setSingleService] = useState({});
+
+  useEffect(() => {
+    const foundService = services.find((service) => service.id === Number(id));
+    setSingleService(foundService)
+  }, [id]);
+  const {name} = singleService || {};
+
   return (
     <>
-      <section className='about-section'>
+      <section className='about-section' id="Top">
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-12 col-lg-6 position-relative'>
@@ -177,14 +190,14 @@ export default function About() {
                   <div className='service-desc'>
                     <div className='service-title'>
                       <h4>
-                        <Link to=''>Mobile Development</Link>
+                      <Link to={`/service/2`}>Mobile Development</Link>
                       </h4>
                     </div>
                     <p>
                       Design professionals, there’s a bit of controversy
                       surrounding the filler text
                     </p>
-                    <Link className='rounded-button' to=''>
+                    <Link className='rounded-button' to={`/service/2`}>
                       <i className='flaticon-forward'></i>
                     </Link>
                   </div>
@@ -196,14 +209,14 @@ export default function About() {
                   <div className='service-desc'>
                     <div className='service-title'>
                       <h4>
-                        <Link to=''>Business Strategy</Link>
+                        <Link to={`/service/4`}>Business Strategy</Link>
                       </h4>
                     </div>
                     <p>
                       Design professionals, there’s a bit of controversy
                       surrounding the filler text
                     </p>
-                    <Link className='rounded-button' to=''>
+                    <Link className='rounded-button'to={`/service/4`}>
                       <i className='flaticon-forward'></i>
                     </Link>
                   </div>
@@ -215,14 +228,14 @@ export default function About() {
                   <div className='service-desc'>
                     <div className='service-title'>
                       <h4>
-                        <Link to=''>Management System</Link>
+                        <Link to={`/service/6`}>CMS System</Link>
                       </h4>
                     </div>
                     <p>
                       Design professionals, there’s a bit of controversy
                       surrounding the filler text
                     </p>
-                    <Link className='rounded-button' to=''>
+                    <Link className='rounded-button' to={`/service/6`}>
                       <i className='flaticon-forward'></i>
                     </Link>
                   </div>
@@ -234,14 +247,14 @@ export default function About() {
                   <div className='service-desc'>
                     <div className='service-title'>
                       <h4>
-                        <Link to=''>ERP System</Link>
+                        <Link to={`/service/5`}>ERP System</Link>
                       </h4>
                     </div>
                     <p>
                       Design professionals, there’s a bit of controversy
                       surrounding the filler text
                     </p>
-                    <Link className='rounded-button' to=''>
+                    <Link className='rounded-button' to={`/service/5`}>
                       <i className='flaticon-forward'></i>
                     </Link>
                   </div>
@@ -253,14 +266,14 @@ export default function About() {
                   <div className='service-desc'>
                     <div className='service-title'>
                       <h4>
-                        <Link to=''>Website Development</Link>
+                        <Link to={`/service/3`}>Website Development</Link>
                       </h4>
                     </div>
                     <p>
                       Design professionals, there’s a bit of controversy
                       surrounding the filler text
                     </p>
-                    <Link className='rounded-button' to=''>
+                    <Link className='rounded-button' to={`/service/3`}>
                       <i className='flaticon-forward'></i>
                     </Link>
                   </div>
