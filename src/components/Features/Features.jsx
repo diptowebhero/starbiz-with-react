@@ -114,8 +114,9 @@ const Features = () => {
                   </g>
                 </svg>
                 <a
+                target="_blank"
                   className='video-popup text-btn-icon popup-youtube'
-                  href='https://www.youtube.com/watch?v=ooXO4LInMW0'>
+                  href='https://www.youtube.com/watch?v=ooXO4LInMW0' rel="noreferrer">
                   <i className='las la-play'></i>
                 </a>
               </div>
