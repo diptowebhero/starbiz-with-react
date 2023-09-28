@@ -1,7 +1,4 @@
-/* ------------------------------------------------
-  Project:   Taypo - Multipurpose Bootstrap5 Template
-  Author:    ThemeHt
------------------------------------------------- */
+
 /* ------------------------
     Table of Contents
 

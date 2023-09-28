@@ -1,0 +1,7 @@
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    border: none !important;
+}
+.swiper-pagination-bullet{
+    cursor: pointer;
+    margin-right: 5px;
+}

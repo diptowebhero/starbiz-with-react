@@ -52,7 +52,8 @@ export default function Testimonials() {
                 loop
                 margin={10}
                 nav
-                {...options}>
+                {...options}
+                >
                 {" "}
                 <div className='item'>
                   <div className='testimonial style-1'>
