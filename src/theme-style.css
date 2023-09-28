@@ -737,7 +737,8 @@
   select {
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: url(https://themeht.com/template/assets/images/down-arrow.svg);
+    background: #141416;
+    padding: 10px;
     background-repeat: no-repeat;
     background-position: right 0.5rem center;
     background-size: 1.5em 1.5em;
