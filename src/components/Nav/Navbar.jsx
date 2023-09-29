@@ -1,6 +1,13 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
+  const [navClick, setNavClick] = useState();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [navClick]);
+
   return (
     <div className='header'>
       <div id='header-wrap'>
@@ -31,23 +38,23 @@ export default function Navbar() {
                 <div className='collapse navbar-collapse' id='navbarNav'>
                   <ul className='navbar-nav mx-auto'>
                     <li className='nav-item'>
-                      <Link to='/' className='nav-link'>
+                      <Link to='/'  onClick={() => setNavClick(!navClick)} className='nav-link'>
                         Home
                       </Link>
                     </li>
                     <li className='nav-item'>
-                      <Link to='services' className='nav-link'>
+                      <Link  onClick={() => setNavClick(!navClick)} to='services' className='nav-link'>
                         Services
                       </Link>
                     </li>
                     <li className='nav-item'>
-                      <Link to='about' className='nav-link'>
+                      <Link  onClick={() => setNavClick(!navClick)} to='about' className='nav-link'>
                         About
                       </Link>
                     </li>
 
                     <li className='nav-item'>
-                      <Link to='contact' className='nav-link'>
+                      <Link  onClick={() => setNavClick(!navClick)} to='contact' className='nav-link'>
                         Contact
                       </Link>
                     </li>

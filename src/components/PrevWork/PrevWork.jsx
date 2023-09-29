@@ -64,7 +64,7 @@ export default function PrevWork() {
                 spaceBetween={50}
                 slidesPerView={3}
                 breakpoints={{
-                  375: {
+                  0: {
                     slidesPerView: 1,
                     spaceBetween: 15,
                   },

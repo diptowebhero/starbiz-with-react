@@ -1,4 +1,5 @@
 
+import Animate from "../Animate";
 import PageHeader from "../components/PageHeader/PageHeader";
 import PageTitle from "../components/PageTitle/PageTitle";
 import PricePlan from "../components/PricePlan/PricePlan";
@@ -12,6 +13,7 @@ export default function Services() {
 
   return (
     <>
+    <Animate>
       <PageHeader title="Services" />
       <PageTitle title="services" pageLinkName="services" />
       <div className="container pt-5">
@@ -22,6 +24,7 @@ export default function Services() {
         </div>
         <PricePlan />
       </div>
+      </Animate>
     </>
   );
 }

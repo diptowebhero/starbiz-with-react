@@ -530,7 +530,8 @@ input[type="submit"] {
     stroke-width: 3;
   }
   .navbar-collapse {
-    background: var(--theme-white-color);
+    background: #1e2405;
+    opacity: .9;
     max-height: 400px;
     left: 0;
     padding: 20px;

@@ -5,7 +5,7 @@ export default function ServiceCount() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-3 col-md-6'>
-              <div className='counter style-1 '>
+              <div className='counter style-1 mb-3'>
                 <div className='counter-top'>
                   <div className='counter-icon'>
                     <i className='flaticon-project-management-1'></i>
@@ -21,7 +21,7 @@ export default function ServiceCount() {
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
-              <div className='counter style-1 '>
+              <div className='counter style-1 mb-3'>
                 <div className='counter-top'>
                   <div className='counter-icon'>
                     <i className='flaticon-rating-1'></i>
@@ -37,7 +37,7 @@ export default function ServiceCount() {
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
-              <div className='counter style-1 '>
+              <div className='counter style-1 mb-3'>
                 <div className='counter-top'>
                   <div className='counter-icon'>
                     <i className='flaticon-expert'></i>
@@ -53,7 +53,7 @@ export default function ServiceCount() {
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
-              <div className='counter style-1 '>
+              <div className='counter style-1 mb-3'>
                 <div className='counter-top'>
                   <div className='counter-icon'>
                     <i className='flaticon-rating'></i>

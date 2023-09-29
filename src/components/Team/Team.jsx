@@ -34,7 +34,7 @@ export default function Team() {
                 navigation
                 slidesPerView={3}
                 breakpoints={{
-                  375: {
+                  0: {
                     slidesPerView: 1,
                     spaceBetween: 15,
                   },

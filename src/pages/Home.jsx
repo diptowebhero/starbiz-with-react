@@ -1,3 +1,4 @@
+import Animate from "../Animate";
 import AboutSection from "../components/AboutSection/AboutSection";
 import Banner from "../components/Banner/Banner";
 import ContactSection from "../components/ContactSection/ContactSection";
@@ -12,7 +13,8 @@ import Testimonials from "../components/Testimonials/Testimonials";
 export default function Home() {
   return (
     <>
-      <PageHeader title="Home" />
+      <Animate>
+        <PageHeader title="Home" />
         <Banner />
         <OurWorks />
         <AboutSection />
@@ -22,6 +24,7 @@ export default function Home() {
         <ServiceCount />
         <Testimonials />
         <ContactSection />
+      </Animate>
     </>
   );
 }

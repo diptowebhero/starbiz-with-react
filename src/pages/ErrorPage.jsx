@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import ErrorImg from "./../assets/images/404.png";
+import Animate from "../Animate";
 export default function ErrorPage() {
   return (
+    <Animate>
     <section className="p-0 vh-100">
       <div className="container h-100">
         <div className="row justify-content-center text-center h-100 align-items-center">
@@ -21,5 +23,6 @@ export default function ErrorPage() {
         </div>
       </div>
     </section>
+    </Animate>
   );
 }
